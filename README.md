@@ -1,7 +1,7 @@
 # day-6
 2/07/2025
 
-SAFE MODE:It is a special diagnostic mode in an operating syastem(Like windows,MacOs)that starts the system with only the essential files and drivers.It is mainly used for troubleshooting              and fixing problems.
+SAFE MODE:It is a special diagnostic mode in an operating syastem(Like windows,MacOs)that starts the system with only the essential files and drivers.It is mainly used for                          troubleshooting and fixing problems.
 FEATURES OF SAFE MODE: 1.Minimal startup:Loads only the basic files and drivers(no third-party apps or fancy graphics)
                        2.No Network:Internet access is disabled unless you choose Safe Mode with Networking.
                        3.Lower Screen Resolution:Uses basic display settings,so things may look different.
@@ -73,9 +73,24 @@ HOW TO MAKE RJ-45 CABLE?
 
 HOST:It refers to any device that connects to a network and can send or receive data.This includes other networked devices like smartphones,computers,laptops,server,printer,tablets and IoT devices.
 
-CLIENT:A client is a device or software that initiates communication with a server to access or resources.Examples:A web browser requesting a web page.
+CLIENT:A client is a device or software that initiates communication with a server to access or resources.Examples:A web browser requesting a web page.An email app checking your inbox.
 
+SERVER:A Server is a device or program that waits for request and then responds with data or services.Example:A web server hosting a website.
 
+WHAT IS NETWORK?
+A network is a group of two or more computers or devices connected together so they can communicate and share resources.
+
+IP ADDRESS(INTERNET PROTOCOL ADDRESS):An IP address is a unique numerical identifier assigned to every device connected to a computer network that uses the internet protocol for                                               communication.It enables devices to communication with each other.
+PROTOCOL:Protocol is a set of rules governing how data is formatted,transmitted and received between devices.
+PROPERTIES: UNIQUE:Each device on a network must have a unique IP address.
+            UNIVERSAL:IP address are a globally recognised standard for network communication.
+
+               IP TYPE                                 USAGE 
+             Public                         Used on the internet ,these addresses are globally unique and rutable.
+             Private                        Used within private networks(e.g. home or school network),these addresses are not directly routable on internet.
+
+            DYNAMIC NATURE:IP address can change over time,especially for devices on dynamic IP assignments.However,its fundamental properties remain constant.
+IPv4(INTERNET PROTOCOL VERSION 4):IPv4 is the fourth version of the internet protocol.
 
 
 
