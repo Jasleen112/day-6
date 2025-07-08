@@ -135,6 +135,8 @@ CLASSFUL ADDRESSING(IPv4):Classful addressing is an early way of dividing IPv4 a
 
               E               1111             240-255               Reserved                 N/A               N/A
 
+  
+
 
 
 
