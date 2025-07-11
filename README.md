@@ -2,6 +2,7 @@
 2/07/2025
 
 SAFE MODE:It is a special diagnostic mode in an operating syastem(Like windows,MacOs)that starts the system with only the essential files and drivers.It is mainly used for                          troubleshooting and fixing problems.
+
 FEATURES OF SAFE MODE: 1.Minimal startup:Loads only the basic files and drivers(no third-party apps or fancy graphics)
                        2.No Network:Internet access is disabled unless you choose Safe Mode with Networking.
                        3.Lower Screen Resolution:Uses basic display settings,so things may look different.
@@ -67,84 +68,6 @@ HOW TO MAKE RJ-45 CABLE?
 5.Insert the wire into the RJ-45 connector.
 6.Stick the connector into the crimping part of the tool and squeeze twice.
 7.Remove the cable from the tool and check that all of the pins are down & test the cable.
-
-
-3/07/2025
-
-HOST:It refers to any device that connects to a network and can send or receive data.This includes other networked devices like smartphones,computers,laptops,server,printer,tablets and IoT devices.
-
-CLIENT:A client is a device or software that initiates communication with a server to access or resources.Examples:A web browser requesting a web page.An email app checking your inbox.
-
-SERVER:A Server is a device or program that waits for request and then responds with data or services.Example:A web server hosting a website.
-
-WHAT IS NETWORK?
-A network is a group of two or more computers or devices connected together so they can communicate and share resources.
-
-IP ADDRESS(INTERNET PROTOCOL ADDRESS):An IP address is a unique numerical identifier assigned to every device connected to a computer network that uses the internet protocol for                                               communication.It enables devices to communication with each other.
-PROTOCOL:Protocol is a set of rules governing how data is formatted,transmitted and received between devices.
-PROPERTIES: UNIQUE:Each device on a network must have a unique IP address.
-            UNIVERSAL:IP address are a globally recognised standard for network communication.
-
-               IP TYPE                                 USAGE 
-             Public                         Used on the internet ,these addresses are globally unique and rutable.
-             Private                        Used within private networks(e.g. home or school network),these addresses are not directly routable on internet.
-
-            DYNAMIC NATURE:IP address can change over time,especially for devices on dynamic IP assignments.However,its fundamental properties remain constant.
-IPv4(INTERNET PROTOCOL VERSION 4):IPv4 is the fourth version of the internet protocol.
-
-                Length: 32 bits long.
-                Address space: Can theoretically support $2^{32}$ unique address.
-                Notation:  Decimal Notation:Use base 10 number system(digit 0-9).
-                          Represented in dotted - decimal format
-                Binary Notation: Use Base 2 number system (digit 0 and 1).
-                                 Computers operate using binary internally.
-                                 Each decimal number in an IPv4 address corresponds to an 8- bit binary number.
-
-ADDRESS STRUCTURE:
-
-NETWORK ID(prefix):Defines the network segment to which the device belongs.This part is common for all devices within the same network.
-HOST ID(Suffix):Uniquely identifies a specific device (host) within that network segment.
-EXAMPLE:An international phone number where the country code represents network and the phone number represents the host.
-
-IPv6(INTERNET PROTOCOL VERSION 6):IPv6 is the latest version of the internet Protocol,designed to address the limitation of IPv4,primarily the exhaustion of available addresses.
-
-                 LENGTH: 128 Bits long
-                 ADDRESS SPACE: Can support a vastly larger number of addresses,approximately $2^{128}$.
-                 NOTATION:Represents in hexadecimal,often with colons separating groups of 16 bits.
-
-IPv4  and IPv6:
-
-                  Feature                        IPv4
-          Address  Length                       32 bits
-          Address Format                        Dotted decimal(e.g., 192.168.1.1)
-          Address Space                         -4.3 billion addresses
-          Header Complexity                      Simple
-          Deployment                             Widely Used
-
-CLASSFUL ADDRESSING(IPv4):Classful addressing is an early way of dividing IPv4 addressed into fixed categories called classes based on the first few bits of the addresses.
-
-              CLASS       STARTING BITS       IP RANGE      LENGTH OF NETWORK (BITS)     RESERVED BITS     NUMBER OF NETWORKS     NUMBER OF HOSTS    DEFAULT SUBNET MASK        PURPOSE
-
-              A               0                0-126                8                                          First
-              
-              B               10               128-191              16                      First2             $2^{14}$
-              
-              C               110              192-223              24                      First3             $2^{21}$
-              
-              D               1110             224-239              N/A(Multicast)            N/A               N/A
-
-              E               1111             240-255               Reserved                 N/A               N/A
-
-  
-
-
-
-
-
-
-
-
-
 
 
 
